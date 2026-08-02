@@ -2,20 +2,7 @@
 
 Dynamic CORS proxy and media stream rewriter for HLS (`.m3u8`), DASH (`.mpd`), MP4, and `.ts` segments. Zero dependencies. No hardcoded CDN lists. Built on Web Standard APIs.
 
----
-
-## Deploy
-
-| Platform | Deploy |
-|---|---|
-| Cloudflare Workers | [![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/walterwhite-69/Anivexa-Proxy) |
-| Vercel | [![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/walterwhite-69/Anivexa-Proxy) |
-| Railway | [![Deploy to Railway](https://railway.com/button.svg)](https://railway.com/template?referralCode=walterwhite-69&code=https://github.com/walterwhite-69/Anivexa-Proxy) |
-| Render | [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/walterwhite-69/Anivexa-Proxy) |
-
-> **Note:** Vercel is not recommended for proxying media streams. Free tier bandwidth runs out fast when streaming video.
-
-Or run it yourself:
+run it yourself:
 
 ```bash
 node proxy.js
